@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', ['>= 3.1.10', '< 3.3'] | 0.upto(10).map{|i| "!= 3.2.#{i}"}
   s.add_dependency 'simple_form'
   s.add_dependency 'cancan', '1.6.7'
-  s.add_dependency 'sanitize', '2.0.6'
+  s.add_dependency 'sanitize', '2.0.3'
   s.add_dependency 'workflow', '1.0.0'
   s.add_dependency 'friendly_id', '~> 4.0', '>= 4.0.9'
   s.add_dependency 'gemoji', '= 1.1.2'
